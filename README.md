@@ -65,7 +65,7 @@ const authInfo = auth.getAuthInfo()
 console.log('authInfo', authInfo)
 
 // log out
-await auth.loginWithFacebook().logout()
+await auth.logout()
 
 // send reset password email. you can edit mail templates in firebase console (auth menu)
 await auth.sendPasswordResetEmail()
