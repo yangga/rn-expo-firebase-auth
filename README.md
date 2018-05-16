@@ -33,9 +33,9 @@ References
 Usage
 ---------
 ```javascript
-import RN_Expo_Firebgase_Auth from 'rn-expo-firebase-auth'
+import RN_Expo_Firebase_Auth from 'rn-expo-firebase-auth'
 
-const auth = new RN_Expo_Firebgase_Auth()
+const auth = new RN_Expo_Firebase_Auth()
 
 // initialize module
 await auth.initAsync()
