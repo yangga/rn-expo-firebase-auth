@@ -53,7 +53,7 @@ class Auth
     }
 
     getAuthInfo() {
-        return this.auth
+        return this.authInfo
     }
 
     /*
@@ -173,6 +173,7 @@ class Auth
         })
 
         localStorage.setItem('auth.info', authInfo)
+        this.authInfo = authInfo
     }
 }
 
