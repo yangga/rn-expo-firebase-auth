@@ -1,0 +1,36 @@
+{
+  "name": "rn-expo-firebase-auth",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangga/rn-expo-firebase-auth.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "expo",
+    "firebase",
+    "auth",
+    "login",
+    "signup",
+    "signin"
+  ],
+  "author": "yangga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yangga/rn-expo-firebase-auth/issues"
+  },
+  "homepage": "https://github.com/yangga/rn-expo-firebase-auth#readme",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "expo": "^27.0.1",
+    "react": "^16.3.1",
+    "react-native-firebase": "^3.3.1",
+    "react-native-sync-localstorage": "0.0.3"
+  }
+}
