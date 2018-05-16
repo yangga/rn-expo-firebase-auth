@@ -35,6 +35,7 @@ class Auth
     }
 
     async initAsync() {
+        await localStorage.getAllFromLocalStorage()
         this._reloadStoredAuthInfo()
     }
 
